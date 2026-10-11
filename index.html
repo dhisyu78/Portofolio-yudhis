@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101827">
+    <meta name="description" content="Portofolio Yudhistira Andhika, software developer yang berfokus pada pengembangan web.">
+    <title>Portofolio | Yudhistira Andhika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Navigasi utama" data-i18n-aria-label="mainNavigation">
+            <a class="logo" href="#beranda" aria-label="My Portofolio, ke beranda" data-i18n-aria-label="logoHome">my <span>portofolio</span><i>.</i></a>
+            <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#beranda" data-i18n="navHome">Beranda</a></li>
+                <li><a href="#tentang" data-i18n="navAbout">Tentang</a></li>
+                <li><a href="#proyek" data-i18n="navProjects">Proyek</a></li>
+                <li><a class="nav-contact" href="#kontak"><span data-i18n="navContact">Hubungi saya</span> <span aria-hidden="true">↗</span></a></li>
+                <li class="language-switch" aria-label="Pilih bahasa" data-i18n-aria-label="languageSelection">
+                    <button class="language-option is-active" type="button" data-language="id" lang="id" aria-label="Bahasa Indonesia" aria-pressed="true">ID</button>
+                    <span aria-hidden="true">/</span>
+                    <button class="language-option" type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="hero-glow" aria-hidden="true"></div>
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="status-dot"></span> <span data-i18n="heroEyebrow">PORTOFOLIO • SOFTWARE DEVELOPER</span></p>
+                    <h1><span data-i18n="heroGreeting">Halo, saya</span><br><span>Yudhistira Andhika.</span></h1>
+                    <p class="hero-description" data-i18n="heroDescription">Saya merancang dan membangun pengalaman web yang responsif, fungsional, dan nyaman digunakan.</p>
+                    <div class="hero-actions">
+                        <a href="#proyek" class="btn"><span data-i18n="heroProjects">Jelajahi proyek</span> <span aria-hidden="true">↗</span></a>
+                        <a href="#tentang" class="text-link"><span data-i18n="heroAbout">Kenali saya</span> <span aria-hidden="true">↓</span></a>
+                    </div>
+                    <div class="hero-note">
+                        <span class="note-line" aria-hidden="true"></span>
+                        <p data-i18n="heroNote">Selalu belajar. Selalu membangun.</p>
+                    </div>
+                </div>
+                <div class="hero-art" aria-label="Ringkasan teknologi pengembangan web" data-i18n-aria-label="heroArtLabel">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="developer-card">
+                        <div class="developer-card-top"><span></span><span></span><span></span><p>web-development</p></div>
+                        <p class="developer-card-label" data-i18n="heroCardLabel">AREA YANG SAYA TEKUNI</p>
+                        <p class="developer-card-title"><span data-i18n="heroCardLineOne">Mengubah ide</span><br><span data-i18n="heroCardLineTwo">menjadi</span> <span data-i18n="heroCardWebsite">website.</span></p>
+                        <div class="developer-stack">
+                            <span>PHP</span><span>JavaScript</span>
+                        </div>
+                        <div class="developer-card-footer"><span class="status-dot"></span> <span data-i18n="heroCardFooter">Responsif · Fungsional · Terus berkembang</span></div>
+                    </div>
+                    <span class="art-spark spark-one" aria-hidden="true">✳</span>
+                    <span class="art-spark spark-two" aria-hidden="true">✦</span>
+                </div>
+            </div>
+            <a class="scroll-cue" href="#tentang"><span></span> <span data-i18n="scrollCue">Gulir untuk menjelajah</span></a>
+        </section>
+
+        <section id="tentang" class="section about-section">
+            <div class="container about-layout">
+                <div class="about-portrait">
+                    <div class="about-photo-frame">
+                        <img class="about-photo-image" src="yudhisfoto.jpeg" alt="Foto profil Yudhistira Andhika" data-i18n-alt="photoAlt" width="1200" height="1600" loading="lazy" decoding="async">
+                    </div>
+                    <p class="about-photo-name">Yudhistira Andhika Hermawanto</p>
+                </div>
+                <div class="about-copy">
+                    <p class="eyebrow section-eyebrow" data-i18n="aboutEyebrow">TENTANG SAYA</p>
+                    <h2 class="section-title"><span class="about-greeting" data-i18n="aboutGreeting">Halo, saya</span> Yudhistira<span>.</span></h2>
+                    <p class="about-intro"><span data-i18n="aboutIntroStart">Saya seorang</span> <strong>web developer</strong> <span data-i18n="aboutIntroEnd">yang tertarik membangun website dan aplikasi web yang responsif, fungsional, dan mudah digunakan.</span></p>
+                    <p data-i18n="aboutDescription">Saya senang mengembangkan ide menjadi solusi digital, mulai dari menyusun tampilan yang nyaman digunakan hingga menghubungkan fitur dengan data. Saya terus belajar dan mengasah kemampuan melalui proyek-proyek pengembangan web.</p>
+                    <div class="skill-list" aria-label="Teknologi yang saya pelajari" data-i18n-aria-label="skillsLabel">
+                        <span>PHP</span><span>JavaScript</span><span>Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyek" class="section projects-section">
+            <div class="container">
+                <div class="projects-heading">
+                    <div>
+                        <p class="eyebrow section-eyebrow" data-i18n="projectsEyebrow">KARYA PILIHAN</p>
+                        <h2 class="section-title"><span class="projects-title" data-i18n="projectsTitle">Proyek terbaru</span><span>.</span></h2>
+                    </div>
+                    <p class="projects-intro" data-i18n="projectsIntro">Beberapa hal yang pernah saya bangun sambil terus mengasah kemampuan.</p>
+                </div>
+                <div class="grid">
+                    <article class="card">
+                        <div class="project-art pos-art" aria-hidden="true">
+                            <div class="pos-window">
+                                <div class="pos-sidebar"></div>
+                                <div class="pos-content"><span></span><span></span><span></span><i></i></div>
+                            </div>
+                            <span class="art-label">01 / POS SYSTEM</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title-row"><h3 data-i18n="posTitle">Aplikasi Kasir (POS)</h3><span class="project-arrow" aria-hidden="true">↗</span></div>
+                            <p data-i18n="posDescription">Sistem manajemen inventaris dan Point of Sale berbasis web untuk membantu proses transaksi.</p>
+                            <div class="project-tags"><span data-i18n="webAppTag">Web App</span><span data-i18n="inventoryTag">Inventory</span></div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="project-art java-art" aria-hidden="true">
+                            <div class="java-window">
+                                <span class="java-prompt">&gt;_</span>
+                                <span class="java-line line-short"></span>
+                                <span class="java-line"></span>
+                                <span class="java-line line-medium"></span>
+                                <span class="java-cursor"></span>
+                            </div>
+                            <span class="art-label">02 / JAVA OOP</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title-row"><h3 data-i18n="javaTitle">Konsol OOP Java</h3><span class="project-arrow" aria-hidden="true">↗</span></div>
+                            <p data-i18n="javaDescription">Aplikasi konsol yang menerapkan hierarki kelas dan konsep inheritance dalam pemrograman berorientasi objek.</p>
+                            <div class="project-tags"><span>Java</span><span>OOP</span></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="contact-section">
+            <div class="container contact-content">
+                <p class="eyebrow" data-i18n="contactEyebrow">PUNYA IDE MENARIK?</p>
+                <h2><span data-i18n="contactLineOne">Mari buat sesuatu</span><br><span data-i18n="contactLineTwo">yang</span> <span data-i18n="contactMeaning">berarti.</span></h2>
+                <p data-i18n="contactDescription">Saya terbuka untuk berbincang tentang proyek, kolaborasi, atau ide baru.</p>
+                <a href="mailto:emailanda@example.com" class="btn btn-light"><span data-i18n="contactButton">Kirim email</span> <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="contact-decoration" aria-hidden="true"><span data-i18n="contactDecorationOne">AYO</span><br><span data-i18n="contactDecorationTwo">BERKARYA</span></div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Yudhistira Andhika Hermawanto</p>
+        <a href="#beranda"><span data-i18n="backToTop">Kembali ke atas</span> ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
