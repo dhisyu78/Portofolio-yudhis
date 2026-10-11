@@ -12,22 +12,24 @@
     <header class="site-header">
         <nav class="navbar" aria-label="Navigasi utama" data-i18n-aria-label="mainNavigation">
             <a class="logo" href="#beranda" aria-label="My Portofolio, ke beranda" data-i18n-aria-label="logoHome">my <span>portofolio</span><i>.</i></a>
-            <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
             <ul class="nav-links" id="nav-links">
                 <li><a href="#beranda" data-i18n="navHome">Beranda</a></li>
                 <li><a href="#tentang" data-i18n="navAbout">Tentang</a></li>
                 <li><a href="#proyek" data-i18n="navProjects">Proyek</a></li>
                 <li><a class="nav-contact" href="#kontak"><span data-i18n="navContact">Hubungi saya</span> <span aria-hidden="true">↗</span></a></li>
-                <li class="language-switch" aria-label="Pilih bahasa" data-i18n-aria-label="languageSelection">
+            </ul>
+            <div class="nav-actions">
+                <div class="language-switch" role="group" aria-label="Pilih bahasa" data-i18n-aria-label="languageSelection">
                     <button class="language-option is-active" type="button" data-language="id" lang="id" aria-label="Bahasa Indonesia" aria-pressed="true">ID</button>
                     <span aria-hidden="true">/</span>
                     <button class="language-option" type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
-                </li>
-            </ul>
+                </div>
+                <button class="menu-toggle" id="mobile-menu" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-links">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
         </nav>
     </header>
 

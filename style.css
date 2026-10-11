@@ -98,6 +98,11 @@ a {
     color: var(--accent);
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+}
+
 .nav-contact span {
     margin-left: 5px;
 }
@@ -854,6 +859,10 @@ a {
         min-height: 76px;
     }
 
+    .nav-actions {
+        gap: 14px;
+    }
+
     .menu-toggle {
         width: 42px;
         height: 42px;
@@ -917,13 +926,11 @@ a {
     }
 
     .language-switch {
-        margin: 8px 0 0;
-        padding-top: 12px;
-        border-top: 1px solid rgba(255,255,255,.1);
+        margin: 0;
     }
 
     .language-option {
-        padding: 8px 4px;
+        padding: 8px 2px;
     }
 
     .hero {
